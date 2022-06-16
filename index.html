@@ -4,16 +4,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Photos</title>
-
-  <script>
-  // redirect to https if using http
-  let isLocalhost = ()=>location.hostname == "localhost" || location.hostname == "127.0.0.1"
-  if (location.protocol == "http:" && !(isLocalhost())) location.protocol = "https:";
-  </script>
+  <title>WCDebugger</title>
   
 </head>
 <body>
+  <wc-debugger>
+  </wc-debugger>
 </body>
 <!-- import script in es module mode -->
 <script src="/index.js" type="module"></script>
